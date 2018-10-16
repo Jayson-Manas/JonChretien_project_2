@@ -75,17 +75,20 @@
 .grid__item_3{
   grid-column: 1/5;
 }
+body{
+  padding: 56px;
+}
 }
 /* ======================Desktop=============================== */
 body{
-  padding: 56px;
+  /* padding: 56px; */
   background-color: black;
   line-height: 1.2;
   font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
 }
 
 #waving_hand{
-  height: 47px;
+  /* height: 47px; */
   padding: 0 20px 0 20px;
   display: inline;
 }
@@ -232,6 +235,7 @@ h4{
   color: #fff;
   float: right;
   /* width: 50%; */
+  text-align: right;
 }
 
 nav{
@@ -253,7 +257,7 @@ nav{
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
+/* @-webkit-keyframes mymove {
     from {left: -140px;}
     to {left: 480px;}
 }
@@ -275,4 +279,4 @@ nav{
   cursor: pointer;
   box-shadow: 0px 0px 80px #000;
   border-radius: 10px;
-}
+} */
