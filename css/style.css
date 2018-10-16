@@ -1,5 +1,5 @@
 /* ======================Mobile=============================== */
-@media (min-width:480px) {
+@media (min-width:320px) {
   .grid__container_1{
     display: grid;
     grid-template-columns: auto;
@@ -12,6 +12,21 @@
 .grid__container_3{
   display: grid;
   grid-template-columns: auto;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto;
+}
+a{
+  margin-left: 24px;
+}
+.footer__copyright{
+  margin-left: 60px;
+  
+}
+#links{
+  justify-content: right;
+
 }
 }
 /* ======================Mobile=============================== */
@@ -44,6 +59,10 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+}
 }
 /* ======================Tablet=============================== */
 
@@ -75,9 +94,20 @@
 .grid__item_3{
   grid-column: 1/5;
 }
-body{
-  padding: 56px;
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: none;
+  
 }
+.footer__copyright{
+  color: #fff;
+  float: right;
+  /* width: 50%; */
+  text-align: right;
+}
+
 }
 /* ======================Desktop=============================== */
 body{
@@ -231,21 +261,6 @@ h4{
     text-transform: uppercase;
 }
 
-.footer__copyright{
-  color: #fff;
-  float: right;
-  /* width: 50%; */
-  text-align: right;
-}
-
-nav{
-  /* width: 50%; */
-}
-.footer{
-  display: grid;
-  grid-template-columns: auto auto;
-
-}
 .banner__greeting{
     width: 100%;
     height: 50px;
@@ -254,6 +269,11 @@ nav{
     -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
     animation: mymove 15s infinite;
     color: white;
+}
+
+.footer__copyright{
+  color: #fff;
+  
 }
 
 /* Safari 4.0 - 8.0 */
