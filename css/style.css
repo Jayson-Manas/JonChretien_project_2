@@ -13,6 +13,13 @@
   display: grid;
   grid-template-columns: auto;
 }
+.footer{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  justify-content: center;
+
+}
 }
 /* ======================Mobile=============================== */
 
@@ -43,6 +50,11 @@
 .grid__item_3{
   grid-column-start: 1;
   grid-column-end: 3;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+
 }
 }
 /* ======================Tablet=============================== */
@@ -77,6 +89,11 @@
 }
 body{
   padding: 56px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+
 }
 }
 /* ======================Desktop=============================== */
@@ -173,6 +190,7 @@ a {
  text-decoration: none;
  color: yellow;
  font-family: vollkorn;
+ margin-left: 24px;
 }
 
 a :hover{
@@ -233,17 +251,15 @@ h4{
 
 .footer__copyright{
   color: #fff;
-  float: right;
-  /* width: 50%; */
-  text-align: right;
+  float: left;
+  width: 100%;
+  /* text-align: right; */
 }
 
-nav{
-  /* width: 50%; */
-}
+
 .footer{
-  display: grid;
-  grid-template-columns: auto auto;
+  /* display: grid; */
+  /* grid-template-columns: auto auto; */
 
 }
 .banner__greeting{
