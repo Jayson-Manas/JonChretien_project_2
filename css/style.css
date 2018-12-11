@@ -111,7 +111,7 @@ body{
 body{
   background-color: black;
   line-height: 1.2;
-  font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
+  font-family: 'Vollkorn',-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
   border-top:13px solid hsla(0,0%,100%,.25);
   margin-right: 0;
   margin-left: 0;
@@ -203,7 +203,8 @@ img {
 
 a {
  text-decoration: none;
- color: yellow;
+ color: #ff3;
+ transition: color .2s ;
  font-family: vollkorn;
  
 }
