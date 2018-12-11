@@ -13,6 +13,9 @@
 .grid__container_3{
   display: grid;
   grid-template-columns: auto;
+  margin-bottom: 56px;
+  padding-bottom: 72px;
+
 }
 .footer{
   display: grid;
@@ -29,10 +32,15 @@
 
 /* ======================Tablet=============================== */
 @media (min-width: 768px) {
+  body {
+    padding: 56px;
+}
   .grid__container_1{
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
+  padding-bottom: 72px;
+
   }
 
   .grid__item_1{
@@ -44,13 +52,23 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    padding-bottom: 72px;
+
+
+  }
+  hr{
+    margin-bottom: 56px;
 
   }
   .grid__container_3{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    padding-bottom: 72px;
+
+  
   }
+  
 
 .grid__item_3{
   grid-column-start: 1;
@@ -147,6 +165,10 @@ body{
   color: #fff;
 }
 
+.lead a{
+  font-size: 34px;
+}
+
 #double {
  border-top-style: double;
  border-bottom-width: 4px;
@@ -208,6 +230,7 @@ a {
  color: #ff3;
  transition: color .2s ;
  font-family: vollkorn;
+ font-size: 20px;
  
 }
 
@@ -240,7 +263,7 @@ img:hover {
 
 h2{
  margin-bottom: auto;
- color: white;
+ color: #fff;
  font-size: 47px;
  font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
  font-weight: 700;
@@ -264,10 +287,16 @@ h4{
     text-transform: uppercase;
 }
 
+body hr{
+  color: #ccc;
+  height: 1px;
+}
+
 .footer__copyright{
   color: #fff;
   float: left;
   width: 100%;
+  font-size: 20px;
   
 }
 
