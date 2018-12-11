@@ -109,12 +109,14 @@ body{
 }
 /* ======================Desktop=============================== */
 body{
-  background-color: black;
+  background-color: #101A24;
   line-height: 1.2;
   font-family: 'Vollkorn',-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
   border-top:13px solid hsla(0,0%,100%,.25);
   margin-right: 0;
   margin-left: 0;
+  margin-top: 0;
+  color:#fff ;
 }
 .selected{
   height: 189.38px;
@@ -142,7 +144,7 @@ body{
   font-size: 47px;
   margin-bottom: -4px;
   margin-top: 9px;
-  color: white;
+  color: #fff;
 }
 
 #double {
@@ -168,7 +170,7 @@ hr {
 }
 .grid__item{
   text-align: left;
-  color: white;
+  color: #fff;
   padding: 10px;
 
 }
@@ -191,7 +193,7 @@ hr {
 .grid__item2{
   padding: 20px;
   text-align: center;
-  color: white;
+  color:#fff;
 
 }
 
