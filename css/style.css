@@ -170,10 +170,6 @@ body{
   
 }
 
-.lead a{
-  font-size: 34px;
-}
-
 #double {
  border-top-style: double;
  border-bottom-width: 2px;
@@ -188,6 +184,9 @@ hr {
 .banner__title{
   text-align: center;
 
+}
+.banner__title a{
+  font-size: 34px;
 }
 
 .grid__item_1{
