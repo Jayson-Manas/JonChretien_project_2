@@ -17,6 +17,7 @@
 
 - Adjusted the footer in all 3 responsive designs(mobile, tablet and desktop).
 - removed unneccesary classes and IDs.
+- adjusted the font weight for the greeting banner.
 
 ## Technology, Tool and Resources used:
 
