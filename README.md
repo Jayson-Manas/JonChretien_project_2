@@ -1,6 +1,6 @@
 # Jon Chretien 
 
-- replicating the Jon Chretien website, using unique classes, IDs and Media Queries.
+- Replicating the Jon Chretien website, using unique classes, IDs and Media Queries.
 
 ## 11 December 
 
@@ -11,13 +11,13 @@
 ## 12 December 
 
 - Adjusted the font to match the original webpage font. 
-- added more indentation to the html document.
+- Added more indentation to the html document.
 
 ## 13 December
 
 - Adjusted the footer in all 3 responsive designs(mobile, tablet and desktop).
-- removed unneccesary classes and IDs.
-- adjusted the font weight for the greeting banner.
+- Removed unneccesary classes and IDs.
+- Adjusted the font weight for the greeting banner.
 
 ## Technology, Tool and Resources used:
 
