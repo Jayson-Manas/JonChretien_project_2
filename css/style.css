@@ -57,7 +57,7 @@
 
   }
   hr{
-    margin-bottom: 56px;
+    margin-bottom: 0;
 
   }
   .grid__container_3{
@@ -175,6 +175,7 @@ body{
  border-bottom-width: 2px;
  border-bottom-style: double;
  color: grey;
+ margin-top: 70px;
 }
 
 hr {
@@ -183,10 +184,14 @@ hr {
 
 .banner__title{
   text-align: center;
+  color: #ccc;
+  font-weight: 500;
+
 
 }
 .banner__title a{
   font-size: 34px;
+  font-weight: 400;
 }
 
 .grid__item_1{
