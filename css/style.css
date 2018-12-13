@@ -132,7 +132,7 @@ body{
 body{
   background-color: #101A24;
   line-height: 1.2;
-  font-family: 'Vollkorn',-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
+  font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
   border-top:13px solid hsla(0,0%,100%,.25);
   margin-right: 0;
   margin-left: 0;
@@ -216,6 +216,10 @@ hr {
   grid-column-end: 3;
 }
 
+figure{
+  margin: 10px;
+}
+
   .grid__item1_picture_4{
     grid-column-start: 1;
     grid-column-end: 3;
@@ -226,10 +230,13 @@ hr {
 }
 
 .grid__item2{
-  padding: 20px;
+  padding: 12px;
   text-align: center;
   color:#fff;
 
+}
+.artist_name{
+  font-size: 20px;
 }
 
 img {
@@ -303,6 +310,10 @@ h4{
  hr{
   color: grey;
   
+}
+
+.bottom_line{
+  margin-bottom: 80px;
 }
 
 .footer__copyright{
